@@ -1,0 +1,8 @@
+version: '3'
+services:
+  java:
+    image: adoptopenjdk/maven-openjdk11
+    volumes:
+      - .:/var/www/alliteracy-load
+    working_dir: /var/www/alliteracy-load
+    command: ['mvn', 'test']
