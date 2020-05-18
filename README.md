@@ -8,4 +8,4 @@ docker-compose -v
 Run the next command for execute all test
 ```bash
 docker-compose up
-```git reset --soft HEAD~1
+```
